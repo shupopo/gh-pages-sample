@@ -3,9 +3,11 @@
   "description": "Github Pages Sample.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "vue": "^2.5.17"
   },
   "devDependencies": {
